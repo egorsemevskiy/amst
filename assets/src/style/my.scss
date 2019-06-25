@@ -1,0 +1,179 @@
+html, body {
+    font-size:12px!important;
+}
+body {
+    background-color: #000;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+.header-container {
+
+    background-image: url('../img/backround.png');
+    background-repeat:no-repeat;
+    background-position: center 0;
+}
+
+h1{ 
+    padding:10px 0 10px 0;
+}
+.red-sale {
+    background: url('../img/red.png') center 0 no-repeat transparent;
+    height:72px;
+    margin-bottom:30px;
+}
+
+.red-sale h3 {
+    padding:24px 0 0 72px;
+    font-weight:700;
+}
+
+.text-yellow {
+    color:yellow;
+}
+.dignity-plus {
+    padding:20px 0 0 30px;
+}
+
+.dignity-plus > img {
+    padding:0 0 10px 40px;
+}
+
+.icons-left {
+    margin-top:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#price {
+    background:url(../img/price.png) center 0 no-repeat;
+    height:67px;
+}
+#lead-row {
+    
+}
+
+#price-text-right {
+    padding-right:50px;
+    padding-top:25px;
+}
+
+#price-text-left {
+    padding-left:50px;
+    padding-top:25px;
+}
+
+#price-text-shadow {
+    text-shadow:#222 0px 1px 14px;
+}
+
+#clock {
+    height:130px;
+    padding:0 0 0 30px;
+    margin-top:-40px;
+}
+
+#sale {
+    margin-left:-124px;
+    margin-bottom:-60px;
+    background:url("../img/sale.png") center center transparent no-repeat;
+    width:378px;
+    height:322px;
+}
+
+#sale > h3 {
+    padding-top:148px;
+    padding-left:15px;
+}
+
+#countdown {
+    padding:45px 0;
+    font-weight:700;
+    font-size:20px!important;
+}
+.round-border-counter {
+    position:relative;
+    padding:15px;
+    border:7px solid red;
+    border-radius:50%;
+}
+
+.dark-bk-gr {
+    margin-top:40px;
+   background-color: rgba(0, 0, 0, 0.7); 
+}
+
+
+.yellow-btn {
+    background: url('../img/button.png') transparent no-repeat center center;
+    height:66px;
+    a {
+        padding-top:1rem;
+        color:#fff;
+        &:hover {
+            color:#fff;
+            text-decoration:none;
+        }
+    }
+}
+
+
+.stars-wrap {
+    margin-top:100px;
+}
+
+
+.stars {
+    padding:10px 0 20px 0 ;
+}
+
+.testimon-wrap {
+    margin:30px 0;
+}
+.testimon {
+    border:2px solid yellow;
+    padding:10px 10px;
+
+    &:hover {
+        border-color:red;
+    }
+}
+
+.order-wrap {
+    margin:50px 0 35px 0;
+
+    h2 {
+        font-weight:700;
+    }
+}
+
+.order-info-wrap {
+    margin:0 0 0 30px ;
+}
+
+.order-info{
+    margin:0 0 25px 0;
+}
+.order-text {
+    padding:6px 0 0 7px;
+}
+
+.black-gr {
+    background: url('../img/black.png');
+    height:112px;
+    margin-top:-112px;
+    transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+}
